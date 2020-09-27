@@ -5,6 +5,8 @@ The Smoothed Particle Hydrodynamics (SPH) code was used to compute flow velociti
 
 The SPH outputs were two files: the first is a mesh file which specifies the mesh node positions while the second is the parameters of interest (height and velocity components) at each node location for each output time of the model.
 
+It uses the https://www.mathworks.com/help/matlab/ref/writematrix.html MATLAB function which was introduced in R2019a. It is convenient but could be worked around with https://www.mathworks.com/help/matlab/ref/dlmwrite.html but that has been deprecated.
+
 
 
 
