@@ -1,5 +1,5 @@
 # Process-SPH-output
-This MATLAB script (and sample files once ready) were developed to read and analyze output from the SPH code. The main use was to support the mapping needed for the Gattuso, et al., paper (Lahar Risk Assessment on Vulcano Island, Italy, To be submitted to Journal of Applied Volcanology). 
+This MATLAB script (and sample files once ready) were developed to read and analyze output from the SPH code. The main use was to support the mapping needed for the Gattuso, et al., Lahar risk assessment from source identification to potential impact analysis: the case of Vulcano Island, Italy, Journal of Applied Volcanology, 2021, DOI 10.1186/s13617-021-00107-6. 
 
 The Smoothed Particle Hydrodynamics (SPH) code was used to compute flow velocities and deposit thicknesses. For intepretation, the model results need to be placed in context. In this case, the outputs are transformed into a series of cvs files which can be imported into GIS software such as ArcGIS or QGIS.  
 
